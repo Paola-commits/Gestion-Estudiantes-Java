@@ -1,0 +1,29 @@
+public class Estudiante {
+    String nombre;
+    int edad;
+    double[] calificaciones;
+
+    public Estudiante(String nombre, int edad, double[] calificaciones) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.calificaciones = calificaciones;
+    }
+
+    public double calcularPromedio() {
+        double suma = 0;
+        for (double nota : calificaciones) {
+            suma += nota;
+        }
+        return calificaciones.length > 0 ? suma / calificaciones.length : 0;
+    }
+
+    public void mostrarDatos() {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Edad: " + edad);
+        System.out.print("Calificaciones: ");
+        for (double nota : calificaciones) {
+            System.out.print(nota + " ");
+        }
+        System.out.println("\nPromedio: " + calcularPromedio());
+    }
+}
