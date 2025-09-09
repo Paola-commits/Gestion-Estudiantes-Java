@@ -14,7 +14,7 @@ Este proyecto fue desarrollado como parte de la actividad formativa de Programac
 - `Main.java`: clase principal que ejecuta el programa
 
 ## Video de demostración
-Disponible en YouTube (no listado): [Agrega aquí el enlace]
+Disponible en YouTube (no listado): [Ver video aquí](https://youtu.be/URQj7kR8ClA?si=zvfUvM9riwvSNKhH)
 
 ## Entorno de ejecución
 El código fue probado en [JDoodle](https://www.jdoodle.com/) y desarrollado en Bloc de notas.
